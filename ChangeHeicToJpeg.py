@@ -15,6 +15,10 @@ import subprocess
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import tkinter as tk
+from tkinter import ttk
+from tkinter import filedialog
+
 #First checks to download pillow_heif and pillow
 
 if not importlib.util.find_spec("PIL"):
@@ -27,9 +31,6 @@ if not importlib.util.find_spec('pillow_heif'):
     
 import pillow_heif
 from PIL import Image
-import tkinter as tk
-from tkinter import ttk
-from tkinter import filedialog
 
 # Global variables to store selected file path
 #File that has the .HEIC images:
