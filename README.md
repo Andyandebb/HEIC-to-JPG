@@ -42,4 +42,4 @@ dist/
 
 AUTHOR
 ------
-Created by Andebb (GitHub)
+Created by Andyandebb (GitHub)
