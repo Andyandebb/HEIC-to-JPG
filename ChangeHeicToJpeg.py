@@ -153,7 +153,7 @@ root.title("Folder Selector")
 root.geometry("500x200")
 
 # Create and place widgets
-label = tk.Label(root, text="No .heic-containing folder selected.")
+label = tk.Label(root, text="No folder containing .heic images selected.")
 label.pack(pady=10)
 
 progress = ttk.Progressbar(root, orient='horizontal',length=300,mode="determinate")
