@@ -149,7 +149,7 @@ def on_next():
 
 # Create the main window
 root = tk.Tk()
-root.title("Folder Selector")
+root.title("HEIC to JPG Converter")
 root.geometry("500x200")
 
 # Create and place widgets
